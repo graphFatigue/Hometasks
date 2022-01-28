@@ -12,23 +12,29 @@ namespace Battleship
         public short Speed { get; set; }
         public short Range { get; set; }
         public short Length { get; set; }
+        
         public static bool operator ==(Ship ship1, Ship ship2)
         {
-            if (ship1.GetType() == ship2.GetType()
+            if {
+                (ship1.GetType() == ship2.GetType()
                 && ship1.Length == ship2.Length
                 && ship1.Speed == ship2.Speed)
+            }
                 return true;
             return false;
         }
 
         public static bool operator !=(Ship ship1, Ship ship2)
         {
-            if (ship1.GetType() != ship2.GetType()
+            if {
+                (ship1.GetType() != ship2.GetType()
                 && ship1.Length != ship2.Length
                 && ship1.Speed != ship2.Speed)
                 return true;
+            }
             return false;
         }
+        
         public void PrintCoordinate()
         {
             for (short i = 0; i < ShipCoordinate.Length; i++)
@@ -40,6 +46,7 @@ namespace Battleship
                 Console.WriteLine();
             }
         }
+        
         public void Move()
         {
         }
