@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Battleship
 {
-    interface ISupportship
+    public interface ISupportship
     {
         void Repair(short x, short y, GameField field);
     }
