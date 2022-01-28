@@ -28,8 +28,8 @@ namespace Battleship
         {
             if {
                 (ship1.GetType() != ship2.GetType()
-                && ship1.Length != ship2.Length
-                && ship1.Speed != ship2.Speed)
+                || ship1.Length != ship2.Length
+                || ship1.Speed != ship2.Speed)
                 return true;
             }
             return false;
