@@ -10,7 +10,7 @@ namespace Battleship
 {
     public class GameField
     {
-        public string NameOfThePlayground;
+        public string NameOfThePlayground { get; set; }
 
         public short Width { get; set; }
         public short Height { get; set; }
