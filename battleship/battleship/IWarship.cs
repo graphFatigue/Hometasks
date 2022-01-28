@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Battleship
 {
-    interface IWarship
+    public interface IWarship
     {
         void Shoot(short x, short y, GameField field);
     }
