@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Battleship
 {
-    internal class Mixedship: Ship, ISupportship, IWarship
+    public class Mixedship: Ship, ISupportship, IWarship
     {
         public void Repair(short x, short y, GameField field)
         {
