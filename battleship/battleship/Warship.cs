@@ -19,6 +19,7 @@ namespace Battleship
                 ShipCoordinate[i] = new short[2];       
             }
     }
+    
         public void Shoot(short x, short y, GameField field)
         {
             if (field.FieldSize[y, x] == 1)
