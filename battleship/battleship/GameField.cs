@@ -39,8 +39,7 @@ namespace Battleship
                 Console.WriteLine();
             }
         }
-
-
+        
         public bool CanAddShip(Ship ship, Direction direction, short x, short y)
         {
             if (direction == Direction.North && y - ship.Length + 1 >= 0)
