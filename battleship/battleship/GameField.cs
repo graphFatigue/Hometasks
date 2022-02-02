@@ -15,7 +15,6 @@ namespace Battleship
         public short Height { get; set; }
         public short QuantityOfShips { get; set; }
         public short[,] FieldSize { get; set; }
-
         public Ship[] ListOfShips = new Ship[] { };
         public List<short> ListOfValidCoordinates { get; set; } = new List<short>();
 
