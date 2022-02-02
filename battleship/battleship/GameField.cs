@@ -26,7 +26,6 @@ namespace Battleship
             FieldSize = new short[height, width];
         }
 
-
         public void Print()
         {
             for (short i = 0; i < FieldSize.GetLength(0); i++)
